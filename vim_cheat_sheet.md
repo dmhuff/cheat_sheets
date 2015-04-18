@@ -6,6 +6,10 @@ Vim Cheatsheet
 - `V`: Select lines.
 - `.`: Repeat last command.
 
+### Configuration ###
+- `$ vim -u .my.vimrc`: Start Vim with a particular configuration file.
+    - Use `NONE` to start Vim with no configurations.
+
 ### History ###
 - `:his`: List command history.
 - `:his /`: List search history.
@@ -30,11 +34,12 @@ Vim Cheatsheet
 - `:vsp`: Create vertical split.
 - `:help splits`: Get help.
 - `ctrl+w j`: Move cursor down a split (uses standard movement keys).
+- `5 ctrl+w +`: Increase the height of a split by five.
+- `ctrl+w >`: Resize the width of a split.
 - References
     - <http://robots.thoughtbot.com/vim-splits-move-faster-and-more-naturally>
 
 ### Indentation ###
-
 - `<`: Unindent line.
 - `>`: Indent line.
 - `5>>`: Indent 5 lines.
